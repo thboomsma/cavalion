@@ -1,0 +1,23 @@
+{
+  "name": "cavalion",
+  "version": "0.0.0",
+  "description": "JS run-time IDE / app deployment framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo "Error: no test specified" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thboomsma/cavalion.git"
+  },
+  "keywords": [
+    "IDE",
+    "run-time",
+    "framework"
+  ],
+  "author": "Theo Boomsma <thboomsma@gmail.com> (http://www.boomsma.biz/)",
+  "license": "GNU-v3",
+  "bugs": {
+    "url": "https://github.com/thboomsma/cavalion/issues"
+  }
+}
