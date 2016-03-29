@@ -28,6 +28,7 @@ Editor user can alter these object parameters globally.
 Tooling is scaffolded by the engine as much as possible but it can also be altered by super.
 All object settings & tooling settings are encrypted and stored in local-storage.
 By default the security setting is disabled!
+
 To Do:
 - Implementation of server-side managed IDE
 - Profile/setting roaming
