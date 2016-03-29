@@ -20,13 +20,18 @@ Cavalion.bindings = {};  // Object containing run-time config object bindings
 ## How it works
 
 Module Cavalion add run-time JS object editing to any control, widget or DIV enclosed element in your web-app.
-There is a superuser that is allowed to edit the editor tooling and accessability there-of by different layer of users by securing the API-calls.
-By default all security is turned off and every user can (for only himself) alter the app as they desire. 
-Tooling is scaffolded as much as possible by the engine and can also be altered for re-use.
+There is a superuser that is allowed to edit the editor tooling and accessability thereof.
+Access control to Cavalion controlled objects is done by securing the API-calls.
+User can alter app's accessible object parameters using configurator/tooling.
+Editor user can alter these object parameters globally.
+Tooling is scaffolded by the engine as much as possible but it can also be altered by super.
 All object settings & tooling settings are encrypted and stored in local-storage.
+By default the security setting is disabled!
 To Do:
 - Implementation of server-side managed IDE
-
+- Profile/setting roaming
+- Off-line storage
+- Sync via log-shipping
 
 ## Setting up the security & encryption
 
