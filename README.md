@@ -1,27 +1,20 @@
 # cavalion
+DO NOT DOWNLOAD YET ... EXPERIMENTAL
 Cavalion Run-time app IDE / Deployment framework
+
+FIRST RELEASE EXPECTED 1 MAY 2016
 
 ```js
 var Cavalion = require('cavalion')
-var Sequelize = require('sequelize')
-var EncryptedField = require('sequelize-encrypted');
 
 // secret key should be 32 bytes hex encoded (64 characters)
-var key = process.env.SECRET_KEY_HERE;
+Cavalion.key = process.env.SECRET_KEY_HERE;
 
-var enc_fields = EncryptedField(Sequelize, key);
+// Security users/group: super, editor, user
+Cavalion.users={}; // Object with Cavalion security structure
 
-var User = sequelize.define('user', {
-    name: Sequelize.STRING,
-    encrypted: enc_fields.vault('encrypted'),
+Cavalion.bind={};  // Object containing run-time config object bindings
 
-    // encrypted virtual fields
-    private_1: enc_fields.field('private_1'),
-    private_2: enc_fields.field('private_2')
-})
-
-var user = User.build();
-user.private_1 = 'test';
 ```
 
 ## How it works
@@ -48,7 +41,8 @@ Do not save this key with the source code, ideally you should use an environment
 ## Tips
 
 - Use cavalion on top of any existing CMS or web-page
--  Build your own tooling and link it up to your editor
+- Build your own tooling and link it up to your editor
+- Bind Cavalion ...
 
 ## License
 
