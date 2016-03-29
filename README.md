@@ -11,9 +11,9 @@ var Cavalion = require('cavalion')
 Cavalion.key = process.env.SECRET_KEY_HERE;
 
 // Security users/group: super, editor, user
-Cavalion.users={}; // Object with Cavalion security structure
+Cavalion.users = {}; // Object with Cavalion security structure
 
-Cavalion.bind={};  // Object containing run-time config object bindings
+Cavalion.bindings = {};  // Object containing run-time config object bindings
 
 ```
 
