@@ -12,22 +12,22 @@
   ####################################################*/
 
 ////////// 0. Node.JS INITIALIZATION //////////////
-var express = require('express')
-, bodyParser = require('body-parser')
-, Sequelize = require('sequelize') // use with MySQL drivers
+var express = require('express'),
+    bodyParser = require('body-parser'),
+    Sequelize = require('sequelize'), // use with MySQL drivers
 // ,Sequelize = require('sequelize-mysql').sequelize //use with specialized Sequelize drivers (better experience)
 // ,mysql = require('sequelize-mysql').mysql
-, SequelizeImport = require('sequelize-import')
-, sqlizr = require('sqlizr')
+    SequelizeImport = require('sequelize-import'),
+    sqlizr = require('sqlizr'),
 // , http = require('http')
-, restful = require('sequelize-restful')
+    restful = require('sequelize-restful'),
 //,swaggerSequelize = require('swagger-sequelize') // Generates Sequelize from Swagger Defs
-,Swaggerize = require('swaggerize') // Generates Swagger Spec from Sequelize models
+    Swaggerize = require('swaggerize'), // Generates Swagger Spec from Sequelize models
 //,swaggerUi = require('swaggerize-ui') // generates the SwaggerUI from docs file
-, path = require('path')
-, fs = require('fs') //fs still required??
-, shell = require('shelljs/global')
-, app = express();
+    path = require('path'),
+    fs = require('fs'), //fs still required??
+    shell = require('shelljs/global'),
+    app = express();
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
