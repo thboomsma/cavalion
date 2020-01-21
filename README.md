@@ -1,3 +1,7 @@
+
+# cavalion
+DO NOT DOWNLOAD YET ... EXPERIMENTAL
+
 <img src="http://relluf.nl/cavalion-icon.png" alt="LoopBack4 logo" width="400"/>
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/strongloop/loopback)
@@ -29,9 +33,8 @@ for all the API usages in each package.
 
 | Version    | Status      | Published | EOL                  |
 | ---------- | ----------- | --------- | -------------------- |
-| ...        | Current     | Oct 2018  | Apr 2021 _(minimum)_ |
-| Cavalion 1 | Active LTS  | Dec 2016  | Dec 2020             |
-| Cavalion A | End-of-Life | Jul 2014  | Apr 2019             |
+| Cavalion 1 | Launch      | jun 2020  | Apr 2021 _(minimum)_ |
+| Cavalion A | Development | Dec 2016  | Dec 2020             |
 
 
 ## Installation
@@ -80,9 +83,6 @@ See the following resources to get you started:
 [MIT](LICENSE)
 
 
-
-# cavalion
-DO NOT DOWNLOAD YET ... EXPERIMENTAL
 
 Cavalion Run-time app IDE / Deployment framework
 
